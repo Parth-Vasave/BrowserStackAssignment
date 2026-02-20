@@ -1,3 +1,6 @@
+Name: Parth Vasave
+email: mailparthvasave@gmail.com
+
 HOW TO RUN THIS: 
 
 1. Install dependencies from requirements.txt using 'pip install -r requirements.txt'
