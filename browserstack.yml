@@ -1,0 +1,38 @@
+userName: ${BROWSERSTACK_USERNAME}
+accessKey: ${BROWSERSTACK_ACCESS_KEY}
+
+buildName: "El País Scraper - Cross Browser Test"
+projectName: "El País Opinion Scraper"
+buildIdentifier: "#${BUILD_NUMBER}"
+
+framework: pytest
+parallelsPerPlatform: 5
+
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Safari
+    browserVersion: latest
+
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+
+  - deviceName: Samsung Galaxy S23
+    osVersion: 13.0
+    browserName: Chrome
+
+  - deviceName: iPhone 15
+    osVersion: 17
+    browserName: Safari
+
+browserstackLocal: false
+debug: true
+networkLogs: true
+consoleLogs: info
