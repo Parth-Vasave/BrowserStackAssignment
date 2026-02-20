@@ -5,6 +5,8 @@ IMPORTANT: The public url of 'BrowserStack Automation build URL' is not working 
 
 https://automate.browserstack.com/projects/El+Pa%C3%ADs+Opinion+Scraper/builds/El+Pa%C3%ADs+Scraper+Cross+Browser+Test/8?public_token=3fc733d557136e675ce67a5a526bd732641aa9d2a5e37e677ca6bd58d07928e8 
 
+PPT Drive Link: https://drive.google.com/drive/folders/1hduQ1Nm2KXe-Hv61ZEdGBre5tS4RTFB7?usp=sharing 
+
 HOW TO RUN THIS: 
 
 1. Install dependencies from requirements.txt using 'pip install -r requirements.txt'
